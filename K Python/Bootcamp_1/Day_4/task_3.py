@@ -15,10 +15,10 @@ class Warrior():
         self.endu_max = endu_max
         
     def attack(self):
-        attack_amount = self.attack_max * (random.random() + 0.25)
+        attack_amount = self.attack_max * (random.random() + 0.125)
         return attack_amount
     def block(self):
-        block_amount = self.block_max * (random.random() + 0.25)
+        block_amount = self.block_max * (random.random() + 0.125)
         return block_amount
     def heal(self):
         heal_amount = self.heal_max * (random.random() + 0.5)
